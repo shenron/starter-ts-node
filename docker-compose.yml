@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  entrypoint:
+    image: shenron/starter-ts-node
+    build: .
+    container_name: starter-ts-node
+    ports:
+      - "3000:3000"
