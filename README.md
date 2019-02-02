@@ -3,19 +3,19 @@
 ### Development
 
 ```bash
-npm run dev
+yarn run watch
 ```
 
 ### Running tests
 
 ```bash
-npm test
+yarn run test
 ```
 
 ### Linting
 
 ```bash
-npm run lint
+yarn run tslint
 ```
 
 ### Building a container
